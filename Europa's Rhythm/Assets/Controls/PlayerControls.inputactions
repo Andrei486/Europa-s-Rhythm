@@ -1,0 +1,155 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Song",
+            "id": "8db5c38c-3e49-47f3-bb59-bec40677a13d",
+            "actions": [
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "567c2ba7-831f-4aa5-a909-851f3820afab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Key 1",
+                    "type": "Button",
+                    "id": "88c3f535-2d30-493a-9ab5-d3af458969f6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Key 2",
+                    "type": "Button",
+                    "id": "3161e2c3-d863-4cf5-836e-695245747851",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Key 3",
+                    "type": "Button",
+                    "id": "fa9acb20-5f5b-426b-87cc-123aedc97dc6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Key 4",
+                    "type": "Button",
+                    "id": "dc551d25-8c33-4d8c-815d-eca127573082",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c48b3559-e61b-4212-8f07-979763bd9355",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7e10d840-5a42-4fc5-9274-cb0c98f597c2",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Key 1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0a6172ad-472f-4133-81ad-f746d4d0eafc",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Key 2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f24cc3b9-76c0-4811-8c72-12ff7d181445",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Key 3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "93adb950-8acd-408a-934f-054b931012de",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Key 4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Menu",
+            "id": "8b5edf10-fab1-4dc8-9dc0-a1d76e1cc648",
+            "actions": [
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "5189d9ff-a946-44be-b55a-d686a4bb961b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Back",
+                    "type": "Button",
+                    "id": "bcd3fdfa-f43e-4098-9239-3481823ae48c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d2a454a9-e7d8-43a0-b0b1-a8a71f817702",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bc503baf-2287-467d-bba9-f1dfb1309dd0",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
