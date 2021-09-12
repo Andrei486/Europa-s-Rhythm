@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 57669946817912141}
   - component: {fileID: 2348367958047613922}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Good Hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7842478096339374828}
   - component: {fileID: 3159734506566346865}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Perfect Hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
