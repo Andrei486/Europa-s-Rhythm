@@ -1,0 +1,373 @@
+[
+    {
+        "timestamp": 0,
+        "note1": false,
+        "note2": false,
+        "note3": true,
+        "note4": false
+    },
+    {
+        "timestamp": 1,
+        "note1": false,
+        "note2": false,
+        "note3": false,
+        "note4": true
+    },
+    {
+        "timestamp": 1.7,
+        "note1": true,
+        "note2": false,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 1.9,
+        "note1": true,
+        "note2": false,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 2.2,
+        "note1": true,
+        "note2": false,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 2.6,
+        "note1": false,
+        "note2": true,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 3.6,
+        "note1": true,
+        "note2": false,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 4.1,
+        "note1": false,
+        "note2": false,
+        "note3": true,
+        "note4": false
+    },
+    {
+        "timestamp": 4.4,
+        "note1": false,
+        "note2": false,
+        "note3": true,
+        "note4": false
+    },
+    {
+        "timestamp": 4.8,
+        "note1": false,
+        "note2": false,
+        "note3": true,
+        "note4": false
+    },
+    {
+        "timestamp": 5,
+        "note1": false,
+        "note2": true,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 5.5,
+        "note1": false,
+        "note2": true,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 6,
+        "note1": false,
+        "note2": false,
+        "note3": false,
+        "note4": true
+    },
+    {
+        "timestamp": 6.7,
+        "note1": false,
+        "note2": false,
+        "note3": false,
+        "note4": true
+    },
+    {
+        "timestamp": 7.7,
+        "note1": false,
+        "note2": false,
+        "note3": true,
+        "note4": false
+    },
+    {
+        "timestamp": 8.1,
+        "note1": false,
+        "note2": false,
+        "note3": true,
+        "note4": false
+    },
+    {
+        "timestamp": 8.6,
+        "note1": true,
+        "note2": false,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 9.2,
+        "note1": true,
+        "note2": false,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 10.1,
+        "note1": false,
+        "note2": true,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 10.6,
+        "note1": false,
+        "note2": true,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 10.8,
+        "note1": false,
+        "note2": false,
+        "note3": true,
+        "note4": true
+    },
+    {
+        "timestamp": 11.2,
+        "note1": true,
+        "note2": false,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 11.4,
+        "note1": false,
+        "note2": true,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 11.7,
+        "note1": true,
+        "note2": false,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 12,
+        "note1": false,
+        "note2": false,
+        "note3": true,
+        "note4": true
+    },
+    {
+        "timestamp": 12.7,
+        "note1": false,
+        "note2": false,
+        "note3": false,
+        "note4": true
+    },
+    {
+        "timestamp": 13.1,
+        "note1": false,
+        "note2": false,
+        "note3": false,
+        "note4": true
+    },
+    {
+        "timestamp": 13.3,
+        "note1": true,
+        "note2": true,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 14,
+        "note1": false,
+        "note2": false,
+        "note3": true,
+        "note4": false
+    },
+    {
+        "timestamp": 14.6,
+        "note1": true,
+        "note2": true,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 15.3,
+        "note1": true,
+        "note2": false,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 15.6,
+        "note1": true,
+        "note2": false,
+        "note3": false,
+        "note4": false
+    }
+    {
+        "timestamp": 15.8,
+        "note1": false,
+        "note2": false,
+        "note3": true,
+        "note4": true
+    },
+    {
+        "timestamp": 16.2,
+        "note1": false,
+        "note2": true,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 16.4,
+        "note1": true,
+        "note2": false,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 16.8,
+        "note1": false,
+        "note2": true,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 17,
+        "note1": false,
+        "note2": false,
+        "note3": true,
+        "note4": true
+    },
+    {
+        "timestamp": 17.7,
+        "note1": false,
+        "note2": false,
+        "note3": true,
+        "note4": false
+    },
+    {
+        "timestamp": 18.2,
+        "note1": false,
+        "note2": false,
+        "note3": true,
+        "note4": false
+    },
+    {
+        "timestamp": 18.4,
+        "note1": true,
+        "note2": true,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 19,
+        "note1": false,
+        "note2": false,
+        "note3": false,
+        "note4": true
+    },
+    {
+        "timestamp": 19.7,
+        "note1": true,
+        "note2": true,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 20.2,
+        "note1": false,
+        "note2": true,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 20.6,
+        "note1": false,
+        "note2": true,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 20.8,
+        "note1": true,
+        "note2": false,
+        "note3": true,
+        "note4": false
+    },
+    {
+        "timestamp": 21.2,
+        "note1": false,
+        "note2": false,
+        "note3": false,
+        "note4": true
+    },
+    {
+        "timestamp": 21.6,
+        "note1": false,
+        "note2": true,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 21.8,
+        "note1": false,
+        "note2": false,
+        "note3": false,
+        "note4": true
+    },
+    {
+        "timestamp": 22.1,
+        "note1": false,
+        "note2": true,
+        "note3": true,
+        "note4": false
+    },
+    {
+        "timestamp": 22.4,
+        "note1": false,
+        "note2": false,
+        "note3": false,
+        "note4": true
+    },
+    {
+        "timestamp": 22.8,
+        "note1": true,
+        "note2": false,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 23.2,
+        "note1": true,
+        "note2": false,
+        "note3": false,
+        "note4": false
+    },
+    {
+        "timestamp": 23.4,
+        "note1": false,
+        "note2": true,
+        "note3": false,
+        "note4": true
+    }
+]
