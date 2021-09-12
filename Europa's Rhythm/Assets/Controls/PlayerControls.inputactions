@@ -14,7 +14,7 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Key 1",
+                    "name": "Key1",
                     "type": "Button",
                     "id": "88c3f535-2d30-493a-9ab5-d3af458969f6",
                     "expectedControlType": "Button",
@@ -22,7 +22,7 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Key 2",
+                    "name": "Key2",
                     "type": "Button",
                     "id": "3161e2c3-d863-4cf5-836e-695245747851",
                     "expectedControlType": "Button",
@@ -30,7 +30,7 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Key 3",
+                    "name": "Key3",
                     "type": "Button",
                     "id": "fa9acb20-5f5b-426b-87cc-123aedc97dc6",
                     "expectedControlType": "Button",
@@ -38,7 +38,7 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Key 4",
+                    "name": "Key4",
                     "type": "Button",
                     "id": "dc551d25-8c33-4d8c-815d-eca127573082",
                     "expectedControlType": "Button",
@@ -61,33 +61,33 @@
                 {
                     "name": "",
                     "id": "7e10d840-5a42-4fc5-9274-cb0c98f597c2",
-                    "path": "<Keyboard>/s",
+                    "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Key 1",
+                    "action": "Key1",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
                     "id": "0a6172ad-472f-4133-81ad-f746d4d0eafc",
-                    "path": "<Keyboard>/x",
+                    "path": "<Keyboard>/f",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Key 2",
+                    "action": "Key2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
                     "id": "f24cc3b9-76c0-4811-8c72-12ff7d181445",
-                    "path": "<Keyboard>/m",
+                    "path": "<Keyboard>/j",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Key 3",
+                    "action": "Key3",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -98,7 +98,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Key 4",
+                    "action": "Key4",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
