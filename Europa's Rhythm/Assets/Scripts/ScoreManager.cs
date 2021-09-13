@@ -13,7 +13,7 @@ public class ScoreManager : MonoBehaviour
     public float Score {get; set;}
     private float comboBonus = 1.0f;
     private int combo;
-    private Text comboText;
+    [SerializeField] private Text comboText;
     //public int Combo {
         //get {
            // return combo;
@@ -27,7 +27,6 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        comboText = GetComponent<Text>();
         combo = 0;
         Score = 0f;
     }
