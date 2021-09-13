@@ -14,6 +14,7 @@ public class ScoreManager : MonoBehaviour
     private float comboBonus = 1.0f;
     private int combo;
     [SerializeField] private Text comboText;
+    [SerializeField] private Text scoreText;
     //public int Combo {
         //get {
            // return combo;
@@ -34,6 +35,7 @@ public class ScoreManager : MonoBehaviour
     void Update()
     {
         comboText.text = combo.ToString();
+        scoreText.text = "Score: " + Score.ToString();
     }
 
     //private void SetComboText(int value)
