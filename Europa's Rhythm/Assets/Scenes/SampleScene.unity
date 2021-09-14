@@ -640,6 +640,42 @@ PrefabInstance:
       propertyPath: targetLine
       value: 
       objectReference: {fileID: 1534796194}
+    - target: {fileID: 4315489270456434170, guid: 04bacdf10b8a0564fbc38a513183552d, type: 3}
+      propertyPath: songAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 0ba8a6be3ca93834e9fa2766caca910d, type: 3}
+    - target: {fileID: 4315489270456434170, guid: 04bacdf10b8a0564fbc38a513183552d, type: 3}
+      propertyPath: _JsonAsset
+      value: 
+      objectReference: {fileID: 4900000, guid: b075ebee485bd8a479269eb0fe6d27a1, type: 3}
+    - target: {fileID: 4315489270456434170, guid: 04bacdf10b8a0564fbc38a513183552d, type: 3}
+      propertyPath: notePrefab
+      value: 
+      objectReference: {fileID: 92944802389948457, guid: 318a7c8db1b08a44b8a93d2ce688876a, type: 3}
+    - target: {fileID: 4315489270456434170, guid: 04bacdf10b8a0564fbc38a513183552d, type: 3}
+      propertyPath: songSource
+      value: 
+      objectReference: {fileID: 519420030}
+    - target: {fileID: 4315489270456434170, guid: 04bacdf10b8a0564fbc38a513183552d, type: 3}
+      propertyPath: materials.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315489270456434170, guid: 04bacdf10b8a0564fbc38a513183552d, type: 3}
+      propertyPath: materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33c28b5d21986de4eaaf7ace28c4549b, type: 2}
+    - target: {fileID: 4315489270456434170, guid: 04bacdf10b8a0564fbc38a513183552d, type: 3}
+      propertyPath: materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d4f9e8180466c04aaa042a3768ce98c, type: 2}
+    - target: {fileID: 4315489270456434170, guid: 04bacdf10b8a0564fbc38a513183552d, type: 3}
+      propertyPath: materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 00a03d573c72af24b8b8b690f47ad6cd, type: 2}
+    - target: {fileID: 4315489270456434170, guid: 04bacdf10b8a0564fbc38a513183552d, type: 3}
+      propertyPath: materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 41870b0ebe3a1f14893950177db37f23, type: 2}
     - target: {fileID: 8078475016464974718, guid: 04bacdf10b8a0564fbc38a513183552d, type: 3}
       propertyPath: comboText
       value: 
@@ -798,7 +834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1716198649176302574, guid: 3b9fd899c718d6a439404ed217627002, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4
+      value: -4.2
       objectReference: {fileID: 0}
     - target: {fileID: 1716198649176302574, guid: 3b9fd899c718d6a439404ed217627002, type: 3}
       propertyPath: m_LocalPosition.z
@@ -860,7 +896,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1716198649176302574, guid: 62e8a6d7ad28d2744966b37dd9154ee1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.5
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 1716198649176302574, guid: 62e8a6d7ad28d2744966b37dd9154ee1, type: 3}
       propertyPath: m_LocalPosition.z

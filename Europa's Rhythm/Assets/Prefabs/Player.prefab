@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2539330522503613277}
   - component: {fileID: 8078475016464974718}
   - component: {fileID: 5454216174103864514}
+  - component: {fileID: 4315489270456434170}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -51,6 +52,7 @@ MonoBehaviour:
   - Note2
   - Note3
   - Note4
+  targetLine: {fileID: 0}
 --- !u!114 &8078475016464974718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,6 +65,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27b487df743f56647985ca29cb8e1369, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  comboText: {fileID: 0}
 --- !u!114 &5454216174103864514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,3 +96,17 @@ MonoBehaviour:
   m_DefaultActionMap: Song
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &4315489270456434170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8975224010835841296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b016f148f9dc3c941bb34cfff482275e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _JsonAsset: {fileID: 0}
+  notePrefab: {fileID: 0}
