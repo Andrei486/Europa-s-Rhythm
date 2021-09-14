@@ -6,42 +6,38 @@ public class NotesManager : MonoBehaviour
 {
     private List<Note> LevelNotes = new List<Note>();
     [SerializeField] private TextAsset _JsonAsset; //the level select will set this
-    private float SongStopwatch = -3;
-    private float _NoteSpeed = 5;
+    private float SongStopwatch = -5;
     [SerializeField] private GameObject notePrefab;
-    //[SerializeField] private AudioClip songAudio;
-    //[SerializeField] private AudioSource songSource;
+    [SerializeField] private AudioClip songAudio;
+    [SerializeField] private AudioSource songSource;
     public bool Paused { get; set; }
-    private float NoteDistance;
+    private float NoteDistance = 9;
     private readonly float NoteHeight = 5;
     [SerializeField] Material[] materials;
     private bool SongStarted;
-
-    public float NoteSpeed { get => _NoteSpeed; set => _NoteSpeed = value; }
     public TextAsset JsonAsset { get => _JsonAsset; set => _JsonAsset = value; }
 
 
     // Start is called before the first frame update
     void Start()
     {
-        //LevelJsonPath = ""
         LoadNotesFromJson();
-        //Debug.Log("note 1: " + LevelNotes[0]);
         Paused = false;
-        //songSource.clip = songAudio;
+        SongStarted = false;
+        songSource.clip = songAudio;
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        SongStopwatch += Time.deltaTime;
         if (SongStopwatch >= 0 && !SongStarted)
         {
-            //songSource.Play();
+            songSource.Play();
+            SongStarted = true;
         }
-        SongStopwatch += Time.deltaTime;
-        if (!(LevelNotes.Count == 0) && (SongStopwatch >= (LevelNotes[0].timestamp - (NoteDistance / NoteSpeed))))
+        if (!(LevelNotes.Count == 0) && (SongStopwatch >= (LevelNotes[0].timestamp - (NoteDistance / NoteController.NoteSpeed))))
         {
             GenerateNotes(LevelNotes[0]);
             LevelNotes.RemoveAt(0);
@@ -86,28 +82,37 @@ public class NotesManager : MonoBehaviour
             GameObject note1 = Instantiate(notePrefab, note1Position, quaternion, transform);
             SpriteRenderer noteRenderer = note1.GetComponent<SpriteRenderer>();
             noteRenderer.material = materials[0];
+            ChangeNoteTags(note1, "Note1");
         }
         if (note.note2)
         {
             GameObject note2 = Instantiate(notePrefab, note2Position, quaternion, transform);
             SpriteRenderer noteRenderer = note2.GetComponent<SpriteRenderer>();
             noteRenderer.material = materials[1];
+            ChangeNoteTags(note2, "Note2");
         }
         if (note.note3)
         {
             GameObject note3 = Instantiate(notePrefab, note3Position, quaternion, transform);
             SpriteRenderer noteRenderer = note3.GetComponent<SpriteRenderer>();
             noteRenderer.material = materials[2];
+            ChangeNoteTags(note3, "Note3");
         }
         if (note.note4)
         {
             GameObject note4 = Instantiate(notePrefab, note4Position, quaternion, transform);
             SpriteRenderer noteRenderer = note4.GetComponent<SpriteRenderer>();
             noteRenderer.material = materials[3];
+            ChangeNoteTags(note4, "Note4");
         }
     }
 
-    /*
+    void ChangeNoteTags(GameObject note, string tag) {
+        note.tag = tag;
+        foreach (Transform child in note.transform) {
+            child.gameObject.tag = tag;
+        }
+    }
     public void OnPause()
     {
         //not yet implemented
@@ -123,7 +128,7 @@ public class NotesManager : MonoBehaviour
             songSource.UnPause();
         }
     }
-    */
+    
 }
 
 [System.Serializable]
